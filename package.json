@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-dashing",
   "license": "Apache-2.0",
   "description": "Derive en- and em-dashes from hyphens",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/index.js",
   "engines": {
     "gitbook": ">1.0.0"
