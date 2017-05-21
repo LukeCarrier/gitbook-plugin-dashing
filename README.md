@@ -1,5 +1,8 @@
 # Dashing for GitBook
 
+[![Travis](https://img.shields.io/travis/LukeCarrier/gitbook-plugin-dashing.svg?style=flat-square)](https://travis-ci.org/LukeCarrier/gitbook-plugin-dashing)
+[![npm](https://img.shields.io/npm/v/gitbook-plugin-dashing.svg?style=flat-square)](https://www.npmjs.com/package/gitbook-plugin-dashing)
+
 Derive [en-](http://www.thepunctuationguide.com/en-dash.html) and [em-dashes](http://www.thepunctuationguide.com/em-dash.html) from hyphens.
 
 ---
