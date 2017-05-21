@@ -1,6 +1,6 @@
 describe("the dashing plugin", () => {
   const path = require("path")
-  const tester = require("gitbook-tester");;
+  const tester = require("gitbook-tester");
 
   const fixture = `
 # Example
