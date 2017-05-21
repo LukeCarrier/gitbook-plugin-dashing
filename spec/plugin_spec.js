@@ -21,6 +21,17 @@ You will find this material in chapters 8--12.
   const processedCode = "<pre><code>You will find this material in chapters 8&#x2013;12.\n" +
       "</code></pre>";
 
+  let originalTimeoutInterval;
+
+  beforeEach(() => {
+    originalTimeoutInterval = jasmine.DEFAULT_TIMEOUT_INTERVAL;
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 20000;
+  });
+
+  afterEach(() => {
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeoutInterval;
+  });
+
   it("should replace dashes in common elements by default", testDone => {
     tester.builder()
       .withLocalPlugin(path.join(__dirname, ".."))
