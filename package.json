@@ -19,7 +19,8 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jasmine": "jasmine",
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -37,5 +38,9 @@
   ],
   "dependencies": {
     "jsdom": "^10.1.0"
+  },
+  "devDependencies": {
+    "gitbook-tester": "^1.4.3",
+    "jasmine": "^2.6.0"
   }
 }

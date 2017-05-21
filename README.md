@@ -46,3 +46,11 @@ Upon discovering the errors---all 124 of them---the publisher immediately recall
 > The 2010–2011 season was our best yet.
 >
 > Upon discovering the errors—all 124 of them—the publisher immediately recalled the books.
+
+## Testing
+
+Tests are written with [Jasmine](https://jasmine.github.io/) and use [the GitBook integration tests framework](https://github.com/todvora/gitbook-tester). Run them with:
+
+```
+$ npm test
+```
