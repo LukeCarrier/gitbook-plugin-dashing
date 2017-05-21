@@ -1,0 +1,40 @@
+{
+  "name": "gitbook-plugin-dashing",
+  "license": "Apache-2.0",
+  "description": "Derive en- and em-dashes from hyphens",
+  "version": "0.1.0",
+  "engines": {
+    "gitbook": ">1.0.0"
+  },
+  "gitbook": {
+    "properties": {
+      "selectors": {
+        "type": "array",
+        "default": [
+          "h1, h2, h3, h4, h5, h6, p, ul, ol"
+        ],
+        "description": "Selectors of elements to apply changes to"
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeCarrier/gitbook-plugin-dashing.git"
+  },
+  "homepage": "https://github.com/LukeCarrier/gitbook-plugin-dashing#readme",
+  "bugs": {
+    "url": "https://github.com/LukeCarrier/gitbook-plugin-dashing/issues"
+  },
+  "authors": [
+    {
+      "name": "Luke Carrier",
+      "email": "luke@carrier.im"
+    }
+  ],
+  "dependencies": {
+    "jsdom": "^10.1.0"
+  }
+}
