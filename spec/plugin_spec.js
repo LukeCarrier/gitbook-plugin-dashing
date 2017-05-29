@@ -1,3 +1,5 @@
+"use strict";
+
 describe("the dashing plugin", () => {
   const path = require("path")
   const tester = require("gitbook-tester");

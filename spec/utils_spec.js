@@ -1,3 +1,5 @@
+"use strict";
+
 describe("utils", () => {
   const { replaceAll, dashify } = require("../lib/utils");
 
