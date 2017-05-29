@@ -1,7 +1,7 @@
 "use strict";
 
 describe("utils", () => {
-  const { replaceAll, dashify } = require("../lib/utils");
+  const utils = require("../lib/utils");
 
   it("replaceAll should replace all occurrences", () => {
     const text = `
@@ -10,7 +10,7 @@ describe("utils", () => {
       everyone's nerves.
     `;
 
-    let result = replaceAll(text, 'everyone', 'Luke');
+    let result = utils.replaceAll(text, 'everyone', 'Luke');
     expect(result).toContain('Luke');
     expect(result).not.toContain('everyone');
   });
@@ -27,13 +27,13 @@ describe("utils", () => {
 
     let result;
 
-    result = dashify(en);
+    result = utils.dashify(en);
     expect(result).toEqual(enPost);
 
-    result = dashify(em);
+    result = utils.dashify(em);
     expect(result).toEqual(emPost);
 
-    result = dashify(combo);
+    result = utils.dashify(combo);
     expect(result).toEqual(comboPost);
   });
 });
